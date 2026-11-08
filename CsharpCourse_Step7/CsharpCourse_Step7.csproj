@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SolidPrinciples.WithDIP.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,6 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1.s-%28srp%29\2.WithSRP.cs" />
+    <Compile Include="1.s-%28srp%29\1.WithoutSRP.cs" />
+    <Compile Include="2.o-%28ocp%29\2.WithOCP .cs" />
+    <Compile Include="2.o-%28ocp%29\1.WithoutOCP.cs" />
+    <Compile Include="3.l-%28lsp%29\2.WithLSP .cs" />
+    <Compile Include="3.l-%28lsp%29\1.WithoutLSP.cs" />
+    <Compile Include="4.i-%28isp%29\2.WithISP .cs" />
+    <Compile Include="4.i-%28isp%29\1.WithoutISP.cs" />
+    <Compile Include="5.d-%28dip%29\2.WithDIP.cs" />
+    <Compile Include="5.d-%28dip%29\1.WithoutDIP.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
