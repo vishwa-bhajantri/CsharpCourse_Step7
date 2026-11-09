@@ -6,6 +6,7 @@ namespace SolidPrinciples.WithISP
     interface ICook
     {
         void Cook();
+        //WithIsp
     }
     interface IAccountManager
     {
